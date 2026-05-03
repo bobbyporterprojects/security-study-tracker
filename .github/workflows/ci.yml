@@ -26,7 +26,7 @@ jobs:
 
       - name: Check Python syntax
         run: |
-          python -m compileall app.py tests/
+          python -m compileall app.py app/ tests/ run.py
 
       - name: Run tests
         run: |
