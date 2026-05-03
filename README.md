@@ -1,3 +1,38 @@
+# Security+ Study Tracker
+
+## Overview
+
+Security+ Study Tracker is a simple Flask web application that tracks progress through Security+ study domains.
+
+This project was created to practice web app basics, Docker, containerization, environment variables, and Git/GitHub workflows.
+
+## Skills Practiced
+
+- Python Flask
+- HTML/CSS templates
+- Docker
+- Dockerfile creation
+- Docker image builds
+- Docker containers
+- Port mapping
+- Environment variables
+- Git and GitHub
+
+## Project Structure
+
+```text
+security-study-tracker/
+│
+├── README.md
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── .dockerignore
+└── templates/
+    └── index.html
+
+
+
 ## Run with Docker Compose
 
 Start the application:
