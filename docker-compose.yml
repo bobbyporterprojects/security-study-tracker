@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: security-study-tracker
+    ports:
+      - "5000:5000"
+    environment:
+      APP_ENV: compose
+      PORT: 5000
+    restart: unless-stopped
